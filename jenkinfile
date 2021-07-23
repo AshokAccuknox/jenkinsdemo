@@ -19,7 +19,7 @@ pipeline {
         }
         stage('pubils') {
             steps {
-                echo 'pybilsing'
+                echo 'pybilsing1'
             }
         }
     }
