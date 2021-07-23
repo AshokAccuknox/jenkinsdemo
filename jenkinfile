@@ -17,5 +17,10 @@ pipeline {
                 echo 'deploying'
             }
         }
+        stage('pubils') {
+            steps {
+                echo 'pybilsing'
+            }
+        }
     }
 }
