@@ -17,7 +17,7 @@ pipeline {
                 echo 'deploying'
             }
         }
-        stage('publish') {
+        stage('publish1') {
             steps {
                 echo 'publishig'
             }
